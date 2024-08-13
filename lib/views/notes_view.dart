@@ -15,6 +15,9 @@ class NotesViwe extends StatelessWidget {
           splashColor: const Color.fromARGB(255, 149, 0, 242),
           onPressed: () {
             showModalBottomSheet(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                ),
                 context: context,
                 builder: (context) {
                   return const AddNoteBottomSheet();
