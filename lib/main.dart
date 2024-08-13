@@ -4,9 +4,7 @@ import 'package:notes_app/views/notes_view.dart';
 
 void main() {
   runApp(
-    DevicePreview(
-      builder: (context) => const NotesApp(),
-    ),
+    const NotesApp(),
   );
 }
 
