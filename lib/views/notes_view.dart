@@ -1,7 +1,4 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-import 'package:notes_app/constants.dart';
 import 'package:notes_app/views/widgets/add_note_bottom_sheet.dart';
 import 'package:notes_app/views/widgets/notes_view_body.dart';
 
