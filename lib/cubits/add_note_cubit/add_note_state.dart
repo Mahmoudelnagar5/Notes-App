@@ -8,8 +8,8 @@ final class AddNoteLoading extends AddNoteState {}
 
 final class AddNoteSuccess extends AddNoteState {}
 
-final class AddNoteError extends AddNoteState {
+final class AddNoteFailure extends AddNoteState {
   final String errorMessage;
 
-  AddNoteError(this.errorMessage);
+  AddNoteFailure(this.errorMessage);
 }
