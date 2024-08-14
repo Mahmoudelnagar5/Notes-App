@@ -65,6 +65,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
               );
             },
           ),
+          const SizedBox(height: 10),
         ],
       ),
     );

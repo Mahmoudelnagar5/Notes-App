@@ -13,6 +13,7 @@ class NotesViwe extends StatelessWidget {
           splashColor: const Color.fromARGB(255, 149, 0, 242),
           onPressed: () {
             showModalBottomSheet(
+                isScrollControlled: true,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
                 ),
