@@ -67,6 +67,25 @@ class _AddNoteFormState extends State<AddNoteForm> {
                     autovalidateMode = AutovalidateMode.always;
                     setState(() {});
                   }
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(16)),
+                      ),
+                      behavior: SnackBarBehavior.fixed,
+                      backgroundColor: Colors.green,
+                      showCloseIcon: true,
+                      closeIconColor: Colors.white,
+                      content: Text(
+                        'Note Added Successfully...',
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.white,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ),
+                  );
                 },
               );
             },
